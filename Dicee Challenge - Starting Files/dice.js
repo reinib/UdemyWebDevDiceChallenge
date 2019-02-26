@@ -13,7 +13,7 @@ var randImg2 = document.querySelectorAll("img")[1];
 var img2 = randImg2.setAttribute("src", randImgSrc2);
 
 // display winner in h1 tag
-if(randNum1 ===randNum2){
+if(randNum1 === randNum2){
   document.querySelector("h1").innerText = "It's a tie! Play again!";
 }
 else if(randNum1 > randNum2){
